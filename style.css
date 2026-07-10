@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(180, 163, 104);
+}
+h1{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 50px;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 50px;
+    line-height: 1.7;
+    color: rgb(119, 90, 115);
+}
+.navbar{
+    text-align: right;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    list-style:none ;
+    font-size: larger;
+    font-weight: 50px;
+    font-style: normal;
+    background-color: rgb(128, 102, 72);
+    box-shadow: 5px;
+    box-sizing: 50px;
+}
+.nav-links{
+   color:rgb(119, 113, 133);
+   font-style: normal;
+   font-weight: 500;
+   margin-left: 25px;
+   text-decoration: none;
+}
+.name{
+    font-weight: 600;
+    color: rgb(12, 0, 9);
+    text-decoration: none;
+}
+.btn{
+    background-color: rgb(126, 124, 109);
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-center 0.3s ease;
+}
+.about{
+    text-align: center;
+    padding: 60px 20px;
+}
+.card-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 25px;
+    max-width: 2000px;
+    margin: 0 auto;
+}
+.card{
+    background-color: rgb(107, 114, 117);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgb;
+    text-align: left;
+    transition: transfrom 0.2s ease;
+}
+.card:haver{
+    transform: translateY(-5px);
+}
+h2{
+    text-align: center;
+    padding: 20px 20px 60px 20px;
+}
+.works{
+    padding: 20px;
+}
+.tags span{
+display:inline-block;
+background-color: azure;
+padding:50px 10px;
+border-radius: 25px;
+margin-right: 10px;
+}
+.card img{
+    border-radius: 5px;
+    object-fit: cover;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 60px;
+    margin: 40px auto 0;
+    background: rgb(160, 162, 163);
+    box-shadow: 0 8px 20px;
+}
+.contact-form input,
+.contact-form textarea{
+    width:100%;
+    padding: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    box-sizing: border-box;
+    background-color: rgb(84, 91, 94);
+}
+.contact-form button{
+    padding: 12px;
+    color: rgb(144, 146, 146);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
